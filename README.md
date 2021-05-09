@@ -122,9 +122,9 @@ Detalji i metodologija ostalih modela mogu se pronaći na [ovom linku](https://c
 
 
 
-#### Vizualizacije predikcija 21.02.
+#### Vizualizacije predikcija 22.02.
 
-![](img/vis_02_08.png)
+![](img/vis_02_22.png)
 
 #### Vizualizacije predikcija 08.02.
 
