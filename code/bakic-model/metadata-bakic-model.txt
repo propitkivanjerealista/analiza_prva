@@ -1,0 +1,12 @@
+team_name: Bakic
+model_name: bakic-model
+model_abbr: bakic-model
+model_contributors: Bakic
+website_url: https://pandemijskirealizam.net/
+license: other
+team_model_designation: primary
+methods: Mathematics
+team_funding: Unknown
+data_inputs: Unknown
+citation: https://pandemijskirealizam.net/
+methods_long: "Longer mathematics"
