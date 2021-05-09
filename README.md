@@ -31,9 +31,9 @@ Podaci iz grafova dostupni su u .csv formatu u direktoriju [./code/csvs/](./code
 ### Aproksimacija izvučenih funkcija
 
 Kako bismo mogli dobiti vrijednosti projekcija na neki proizvoljan datum odabran s desne strane jedne od vertikalnih crtkanih linija (neki datum nakon što su projekcije objavljene), aproksimirat ćemo svaku od projekcija polinonom n-tog stupnja tako da minimiziramo sumu kvadrata odstupanja aproksimacijske funkcije od stvarnih podataka, ili za one koji preferiraju univerzalni jezik matematike:
-$$
-\theta^* = \operatorname*{argmin}_\theta \sum_{i=0}^{N-1} \left(f_\theta(x_i) - y_i\right)^2,
-$$
+
+![](img/min.png)
+
 gdje *y_i* predstavlja vrijednost predviđenog broja slučajeva iščitanu iz grafa na dan *x_i*, a *theta* predstavlja vektor koeficijenata polinoma *f*.
 
 ![](img/aproksimacije.png)
@@ -91,9 +91,9 @@ Projekcije označene s ** objavljene su nakon službenog datuma evaluacije, što
 ### Intervali pouzdanosti
 
 Budući da ne znamo koji su intervali pouzdanosti u grafovima objavljenim na stranicama pandemijskog realizma, a potrebni su za evaluaciju, pretpostavit ćemo da projekcije navedene u tablici iznad predstavljaju srednje vrijednosti normalne distribucije, dok standardnu devijaciju definiramo kao
-$$
-\sigma_t=0.05 * \mu * t ^ 2,
-$$
+
+![](img/sigma.png)
+
 gdje *t* označava redni broj tjedna (1, 2, 3 ili 4). Time pretpostavljamo da pouzdanost projekcije modela pada kad gledamo dalje u budućnost.
 
 ## Rezultati evaluacije
