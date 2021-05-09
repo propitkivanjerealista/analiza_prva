@@ -230,8 +230,8 @@ Sličnu analizu moguće je napraviti i za projekcije broja umrlih, no taj dio je
 ## Zaključci
 
 - Model kojim su generirani grafovi objavljeni na stranici pandemijskih realista nije jedini niti najbolji u predikciji broja COVID19 slučajeva u Hrvatskoj.
-
 - Model kojim su generirani grafovi objavljeni na stranici pandemijskih realista bio je najgori od svih evaluiranih modela kod prognoziranja broja novih COVID19 slučajeva u prvih tjedan dana od projekcije.
+- Model kojim su generirani grafovi objavljeni na stranici pandemijskih realista jedini je od svih modela konzistentno podcijenjivao budući broj novih slučajeva.
 
 
 
